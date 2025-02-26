@@ -10,7 +10,7 @@ export default function Home() {
         <NavBar />
       </header>
       <body>
-        <div className="bg-gradient-to-t from-lime-100 via-[#9AEBA3] to-white ">
+        <div className="bg-gradient-to-t from-lime-300 via-[#9AEBA3] to-white ">
           <IntroSection />
           <AboutSection />
           <ProjectsSection />
@@ -139,8 +139,7 @@ function AboutSection() {
                 Currently doing a module "Mobile Programming" using Kotlin.
               </p>
               <p className="text-sm text-gray-700">
-                Currently working as an intern at Nabeka Legacy Corp., working
-                on Groove.
+                Currently working as an intern.
               </p>
             </div>
 
