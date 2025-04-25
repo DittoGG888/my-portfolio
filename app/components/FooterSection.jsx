@@ -17,11 +17,11 @@ function Footer() {
           <div>
             <h3 className="text-2xl font-semibold mb-4">Socials</h3>
             <ul className="text-sm">
-              <li><a href="#" className="hover:text-gray-300">LinkedIn</a></li>
+              <li><a href="https://www.linkedin.com/in/thabang-mokoena-671ab9221/" className="hover:text-gray-300">LinkedIn</a></li>
               <li><a href="#" className="hover:text-gray-300">Instagram</a></li>
               <li><a href="#" className="hover:text-gray-300">Facebook</a></li>
               <li><a href="#" className="hover:text-gray-300">Twitter</a></li>
-              <li><a href="#" className="hover:text-gray-300">GitHub</a></li>
+              <li><a href="https://github.com/ThabangXist" className="hover:text-gray-300">GitHub</a></li>
             </ul>
           </div>
   

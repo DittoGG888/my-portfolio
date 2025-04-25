@@ -30,7 +30,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex bg-white shadow-md fixed w-full top-0 text-black items-start justify-start z-10">
+    <nav className="flex bg-black shadow-md fixed w-full top-0 text-white items-start justify-start z-10">
       <div className="container mx-auto flex justify-between items-center">
         <div className="font-roboto text-3xl text-left py-4 px-6">
           <a href="#intro" onClick={(e) => handleNavClick(e, 'intro')}>
@@ -45,9 +45,9 @@ const NavBar = () => {
           onClick={toggleMenu}
           aria-label="Toggle navigation menu"
         >
-          <div className="w-6 h-0.5 bg-black mb-1.5"></div>
-          <div className="w-6 h-0.5 bg-black mb-1.5"></div>
-          <div className="w-6 h-0.5 bg-black"></div>
+          <div className="w-6 h-0.5 bg-white mb-1.5"></div>
+          <div className="w-6 h-0.5 bg-white mb-1.5"></div>
+          <div className="w-6 h-0.5 bg-white"></div>
         </button>
 
         {/* Desktop Navigation (hidden on mobile) */}
@@ -56,7 +56,7 @@ const NavBar = () => {
             <a 
               href="#intro" 
               onClick={(e) => handleNavClick(e, 'intro')} 
-              className="text-black font-roboto text-lg hover:text-gray-600 transition"
+              className="text-white font-roboto text-lg hover:text-gray-600 transition"
             >
               Intro
             </a>
@@ -65,7 +65,7 @@ const NavBar = () => {
             <a 
               href="#about" 
               onClick={(e) => handleNavClick(e, 'about')} 
-              className="text-black font-roboto text-lg hover:text-gray-600 transition"
+              className="text-white font-roboto text-lg hover:text-gray-600 transition"
             >
               About Me
             </a>
@@ -74,7 +74,7 @@ const NavBar = () => {
             <a 
               href="#projects" 
               onClick={(e) => handleNavClick(e, 'projects')} 
-              className="text-black font-roboto text-lg hover:text-gray-600 transition"
+              className="text-white font-roboto text-lg hover:text-gray-600 transition"
             >
               Projects
             </a>
@@ -83,7 +83,7 @@ const NavBar = () => {
             <a 
               href="#contact" 
               onClick={(e) => handleNavClick(e, 'contact')} 
-              className="text-black font-roboto text-lg hover:text-gray-600 transition"
+              className="text-white font-roboto text-lg hover:text-gray-600 transition"
             >
               Contact Me
             </a>
@@ -93,13 +93,13 @@ const NavBar = () => {
 
       {/* Mobile Navigation Menu (toggles visibility based on state) */}
       {isMenuOpen && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-md md:hidden">
+        <div className="absolute top-full left-0 w-full bg-black shadow-md md:hidden">
           <ul className="flex flex-col">
             <li className="p-4 border-b">
               <a 
                 href="#intro" 
                 onClick={(e) => handleNavClick(e, 'intro')} 
-                className="text-black font-roboto text-lg hover:text-gray-600 transition block"
+                className="text-white font-roboto text-lg hover:text-gray-600 transition block"
               >
                 Intro
               </a>
@@ -108,7 +108,7 @@ const NavBar = () => {
               <a 
                 href="#about" 
                 onClick={(e) => handleNavClick(e, 'about')} 
-                className="text-black font-roboto text-lg hover:text-gray-600 transition block"
+                className="text-white font-roboto text-lg hover:text-gray-600 transition block"
               >
                 About Me
               </a>
@@ -117,7 +117,7 @@ const NavBar = () => {
               <a 
                 href="#projects" 
                 onClick={(e) => handleNavClick(e, 'projects')} 
-                className="text-black font-roboto text-lg hover:text-gray-600 transition block"
+                className="text-white font-roboto text-lg hover:text-gray-600 transition block"
               >
                 Projects
               </a>
@@ -126,7 +126,7 @@ const NavBar = () => {
               <a 
                 href="#contact" 
                 onClick={(e) => handleNavClick(e, 'contact')} 
-                className="text-black font-roboto text-lg hover:text-gray-600 transition block"
+                className="text-white font-roboto text-lg hover:text-gray-600 transition block"
               >
                 Contact Me
               </a>
