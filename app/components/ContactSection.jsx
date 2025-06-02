@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="py-16 min-h-screen" id="contact">
       <h2 className="text-5xl font-bold text-center mb-8 text-[#012030]">Email Me!</h2>
-      <div className="container mx-auto px-4 bg-[#45C4B0] rounded-3xl py-5">
+      <div className="container mx-auto px-4 bg-[#F97E07] rounded-3xl py-5">
         <div className="w-1/6 align-middle">
           <svg width="200px" height="200px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_429_11225)">

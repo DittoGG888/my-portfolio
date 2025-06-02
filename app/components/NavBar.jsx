@@ -65,7 +65,7 @@ const NavBar = () => {
             <a 
               href="#about" 
               onClick={(e) => handleNavClick(e, 'about')} 
-              className="text-white font-roboto text-lg hover:text-gray-600 transition"
+              className="text-white font-roboto text-lg hover:text-[#FB0303] transition"
             >
               About Me
             </a>
